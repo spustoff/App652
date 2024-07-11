@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="HistoryModel" representedClassName="HistoryModel" syncable="YES" codeGenerationType="class">
+        <attribute name="hisComment" optional="YES" attributeType="String"/>
+        <attribute name="hisDate" optional="YES" attributeType="String"/>
+        <attribute name="hisName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="InventoryModel" representedClassName="InventoryModel" syncable="YES" codeGenerationType="class">
+        <attribute name="inModel" optional="YES" attributeType="String"/>
+        <attribute name="inName" optional="YES" attributeType="String"/>
+        <attribute name="inPhoto" optional="YES" attributeType="String"/>
+        <attribute name="inQuantity" optional="YES" attributeType="String"/>
+        <attribute name="inStatus" optional="YES" attributeType="String"/>
+    </entity>
+</model>
